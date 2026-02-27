@@ -75,6 +75,13 @@ npm run build
 npm run preview
 ```
 
+### Testes
+
+```bash
+npm run test        # watch mode
+npm run test:run    # executa uma vez
+```
+
 ## Uso da Aplicação
 
 1. **Criar conta**: Registre-se com nome, email e senha
@@ -108,7 +115,7 @@ A aplicação consome a API REST disponível em:
 
 ## Melhorias Futuras
 
-- [ ] Testes unitários e de integração
+- [x] Testes unitários
 - [ ] PWA para uso offline
 - [ ] Filtros avançados no marketplace
 - [ ] Notificações em tempo real
